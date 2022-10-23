@@ -1,0 +1,57 @@
+estilos.css
+*{  background-color: rgb(19,18,18);
+	color: rgb(242, 242, 242);
+	text-align: center;
+	font-family: ´Cantarell:italic|Droid+Serif:bold´;
+}
+	#imgPerfil{
+		border-radius: 10%;
+		border: solid 10px;
+		border-color: rgb(145,71,39);
+		text-align: center;
+	}
+	#imgPerfil2{
+		border-radius: 10%;
+		border: solid 10px;
+		border-color: rgb(145,71,39);
+		text-align: center;
+	}
+	#imgPerfil3{
+		border-radius: 10%;
+		border: solid 10px;
+		border-color: rgb(145,71,39);
+		text-align: center;
+	}
+
+	.titulos{
+		font-size: 200%;
+		font-style: normal;
+		display: inline-block;
+	}
+
+	#biografia{
+		width: 70vw; 
+		margin-left: 15%
+		display: inline-flex;
+		text-align: center;
+	}
+	h1{
+		font-family: 200%;
+		font-style: italic;
+		text-align: center;
+	}
+	h2{
+		font-size: 300%;
+		text-align: center;
+	}
+    .FlexPelicula{
+    	width: 50px
+    	height: 50px;
+    	margin: 10px;
+    	font-size: 50%
+    }    
+    .PeliculasContenedor{
+    	display: flex;
+    	flex-wrap: wrap;
+        justify-content: center;
+    }
